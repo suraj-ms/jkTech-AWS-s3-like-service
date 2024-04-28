@@ -1,0 +1,20 @@
+{
+  "name": "jk-tech-aws-project",
+  "version": "1.0.0",
+  "description": "Build a AWS S3 like service without AWS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www"
+  },
+  "author": "Suraj MS",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}
